@@ -1,6 +1,6 @@
 # Sam Huber
 # Basic 4 Function calculator
-#Help from POGIL 8/9
+#Help from POGIL 2/3/6/7/8/9
 
 print("4 function calculator")
 print("1. Addition")
@@ -30,9 +30,9 @@ elif choice == 5:
 else:
     print("Wrong input..!!")
 
-    # Trivia GAme
-    # Help from eliosfederico
-    question1 = "Who is the Bengals starting quarterback? "
+    # Trivia Game
+    # Help from Pogil 1/2/3/6/13
+question1 = "Who is the Bengals starting quarterback? "
 question2 = "What country won the very first World Cup? "
 question3 = "Is Java a type of OS? "
 question4 = "What was twitter's original name? "
@@ -48,6 +48,7 @@ questions = [question1, question2, question3, question4, question5, question6,
 
 # ANSWERS
 # here are all variables of the answers.
+#Help from Pogil 2
 
 answer1 = "Andy Dalton"
 answer2 = "Uruguay"
@@ -58,13 +59,13 @@ answer6 = "Naples, Florida"
 answer7 = "XO Tour Life"
 answer8 = "Yes"
 
-# this is the list   answers
+# this is the list answers
 
 answers = [answer1, answer2, answer3, answer4, answer5, answer6, answer7,
            answer8]
 
 # GLOBAL GAME SETTINGS
-
+# Help from Hackerrank
 
 points = 0
 name = None
@@ -73,7 +74,7 @@ no = ['No', 'no', 'NO']
 
 
 # RESET ZONE
-# Help from Hackerrank
+# Help from Hackerrank 
 
 
 def game_reset():
@@ -190,9 +191,6 @@ def game_control():
 
 
 # end-function#
-
-
-# FIRST GAME START ZONE
 
 
 game_control()
