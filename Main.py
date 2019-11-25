@@ -1,6 +1,8 @@
 # Sam Huber
 # Basic 4 Function calculator
 #Help from POGIL 2/3/6/7/8/9
+Integration Project
+_author_ = Sam Huber
 
 print("4 function calculator")
 print("1. Addition")
